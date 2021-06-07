@@ -10,7 +10,7 @@ import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selector";
 import { createStructuredSelector } from "reselect";
-import CheckoutPage from './components/checkout/checkout.component';
+import CheckoutPage from './pages/checkout/checkout.component';
 
 class App extends React.Component {
   componentDidMount() {
